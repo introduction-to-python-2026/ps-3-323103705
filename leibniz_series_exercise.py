@@ -1,2 +1,5 @@
 def approximate_pi(n_terms):
-    pass # replace pass with your code
+    x = 0
+    y = (-1 ** n_terms) / (2 * n + 1)
+    x = 4 * y
+    return x
